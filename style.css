@@ -1,0 +1,66 @@
+ul li {
+    background-color: black;
+    color : white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+}
+
+ul li:hover {
+    background-color: white;
+    color : black;
+    transition: all 0.5s;
+}
+
+.level1 li {
+    display: inline-block;
+    position: relative;
+}
+
+.level2 {
+    position : absolute;
+    top : 50px;
+    right: 0;
+    display: none;
+}
+
+.level1 li:hover .level2 {
+    display: block;
+    transition: all 0.5s;
+}
+
+
+
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    float : left;
+}
+.box-3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float : left;
+}
+.box-4 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    clear: both;
+}
+
+/* .box-1::after {
+    display: block;
+    content: "";
+    clear: both;
+} */
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}

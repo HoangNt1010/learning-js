@@ -1,0 +1,14 @@
+.demo {
+    background: url(./background/tho.png);
+    width: 430px;
+    height: 345px;
+    animation: mymoveX 0.3s steps(3) infinite, mymoveY 0.9s steps(3) infinite;
+
+   
+}
+@keyframes mymoveX {
+    100% {background-position-x : -1400px}
+}
+@keyframes mymoveY {
+    100% {background-position-y : -1100px}
+}
